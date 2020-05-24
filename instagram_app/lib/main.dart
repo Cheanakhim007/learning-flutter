@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:instagramapp/instargram-ui/instargram.dart';
+//import 'package:instagramapp/instargram-ui/instargram.dart';
+
+import 'instargram-ui/InstagramNorin.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Instagram(),
+      home: InstagramNorin(),
     );
   }
 }
